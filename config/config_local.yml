@@ -1,0 +1,7 @@
+env: "local"
+storage_path: "postgres://bxiit:bxiit@localhost:5447/pet-store?sslmode=disable"
+token_ttl: 1h
+grpc:
+  port: 44046
+  timeout: 10h
+migrations_path: ./migrations
